@@ -396,8 +396,8 @@ isTouchDevice();
 draggableNav.addEventListener(events[deviceType].down, (e) => {
 	e.preventDefault();
 	//initial x and y points
-	initialX = !isTouchDevice() ? e.clientX : e.touches[0].clientX;
-	initialY = !isTouchDevice() ? e.clientY : e.touches[0].clientY;
+	initialX = isTouchDevice() ? e.clientX : e.touches[0].clientX;
+	initialY = isTouchDevice() ? e.clientY : e.touches[0].clientY;
 
 	// Start movement
 	moveElement = true;
@@ -409,8 +409,8 @@ draggableNav.addEventListener(events[deviceType].move, (e) => {
 	// If movement is true then set top and left to new X and Y while removing offset
 	if (moveElement) {
 		e.preventDefault();
-		let newX = !isTouchDevice() ? e.clientX : e.touches[0].clientX;
-		let newY = !isTouchDevice() ? e.clientY : e.touches[0].clientY;
+		let newX = isTouchDevice() ? e.clientX : e.touches[0].clientX;
+		let newY = isTouchDevice() ? e.clientY : e.touches[0].clientY;
 		draggableNav.style.top = draggableNav.offsetTop - (initialY - newY) + "px";
 		draggableNav.style.left =
 			draggableNav.offsetLeft - (initialX - newX) + "px";
