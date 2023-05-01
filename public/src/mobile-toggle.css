@@ -1,0 +1,125 @@
+.toggle-section.active {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-mobile {
+	position: fixed;
+	top: 30px;
+	width: 50px;
+	height: 50px;
+	background-color: #e7eaf0;
+	transition: width 0.5s, height 0.5s;
+	transition-delay: 0s, 0.75s;
+	left: 96%;
+	transform: translate(-100%, 0);
+	border-radius: 20px;
+	z-index: 100000;
+	overflow: hidden;
+}
+
+.nav-mobile.active {
+	width: 200px;
+	height: 250px;
+	transition: height 0.5s, width 0.5s;
+	transition-delay: 0s, 0.75s;
+}
+
+.nav-mobile ul {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	list-style: none;
+	padding-left: 0;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	gap: 1px;
+	align-items: center;
+	position: relative;
+	width: 100%;
+}
+
+.nav-list:hover {
+	background: #2e3d52;
+}
+
+.nav-mobile a {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 50px;
+	display: flex;
+	text-decoration: none;
+	color: #4b5562;
+	text-transform: uppercase;
+}
+
+.nav-mobile a:hover {
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.icon {
+	position: relative;
+	display: block;
+	min-width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #2e3d52;
+}
+
+.fa-regular {
+	font-size: 24px;
+}
+
+.nav-mobile .toggle-mobile {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: #2e3d52;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.nav-mobile .toggle-mobile.active {
+	background: #a7b2b1;
+}
+
+.nav-mobile .toggle-mobile::before {
+	content: "+";
+	position: absolute;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	/* width: 100%; */
+	color: #fff;
+	font-weight: 400;
+	transition: 0.5;
+}
+
+.nav-mobile .toggle-mobile.active::before {
+	transform: rotate(315deg);
+}
