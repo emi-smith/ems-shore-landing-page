@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Em's Shore</title>
+		<link rel="stylesheet" href="./src/styles.css" />
+		<link rel="stylesheet" href="./src/globals.css" />
+		<link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Quicksand:wght@300;400&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- MOBILE NAVBAR -->
+		<section id="toggle-section-id" class="toggle-section">
+			<div id="nav-mobile-id" class="nav-mobile">
+				<div class="toggle-mobile"></div>
+				<ul>
+					<li id="products-mobile" class="nav-list">
+						<span class="icon"><i class="fa-regular fa-gem"></i></span>
+						<a href="#" src="/">Products</a>
+					</li>
+					<li id="about-mobile" class="nav-list">
+						<span class="icon"><i class="fa-regular fa-bookmark"></i></span>
+						<a href="#" src="/">About</a>
+					</li>
+					<li id="contact-mobile" class="nav-list">
+						<span class="icon"><i class="fa-regular fa-envelope"></i></span>
+						<a href="#" src="/">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- NAVBAR -->
+		<section class="navbar">
+			<figure class="logo">
+				<img
+					src="./assets/ems-shore-white.png"
+					width="180"
+					height="180"
+					alt="pending logo"
+				/>
+			</figure>
+			<ul class="nav-btns">
+				<li id="products" class="nav-btn">
+					<a class="nav-link" href="#" src="/">Products</a>
+				</li>
+				<li id="about" class="nav-btn">
+					<a class="nav-link" href="#" src="/">About</a>
+				</li>
+				<li id="contact" class="nav-btn">
+					<a class="nav-link" href="#" src="/">Contact</a>
+				</li>
+			</ul>
+		</section>
+		<main>
+			<!-- NOTE MODAL -->
+			<section class="note-modal" id="note-id">
+				<div class="note-border">
+					<div class="note-content">
+						<span class="close-note-btn">&times;</span>
+						<div class="note-cards">
+							<h1 class="note-header">IT WAS INTENTIONAL!</h1>
+							<P class="note-text">The button you pressed intentionally lead you here.</P>
+							<p class="note-text">This landing page is for a business that is no longer open.</p>
+						</div>
+					</div>	
+				</div>
+			</section>
+
+
+			<!-- PRODUCT SLIDER MODAL --> 
+			<section class="products-modal" id="products-id">
+				<div class="products-content">
+					<span class="close-products-btn">&times;</span>
+					
+					<div class="slider-container">
+						<!-- LEFT SLIDER BUTTON -->
+						<div id="slider-left-id" class="slider-nav-left">
+							<button class="slider-nav-btn-left" type="button" onclick="prev()">🡨</button>
+						</div>
+						
+						<div class="slider-wrap">
+							<ul id="autoWidth" class="cs-hidden">
+								<!-- procduct one ------------------->
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn1">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/Blue Beaded Leather wrap bracelets.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Blue Leather Wrap</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$46</a>
+										</div>
+									</div>
+								</li>
+								<!-- procduct two ------------------->
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn2">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/green-wrap-set.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Green Wrap Set</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$65</a>
+										</div>
+									</div>
+								</li>
+								<!-- procduct three ----------------->
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn3">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/purple-wrap-set.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Purple Wrap Set</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$65</a>
+										</div>
+									</div>
+								</li>
+								<!-- procduct four ------------------>
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn4">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/rose-turquoise-wrap.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Rose Turquoise Wrap</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$35</a>
+										</div>
+									</div>
+								</li>
+								<!-- procduct five ------------------>
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn5">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/seedbracelets.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Seed Bracelet</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$18</a>
+										</div>
+									</div>
+								</li>
+								<!-- procduct six ------------------->
+								<li class="item">
+									<!-- box slider ----------------------------->
+									<div class="product-slider">
+										<!-- img box ---------------------------->
+										<div class="slide-img">
+											<!-- overlayer ----------------->
+											<div class="overlay">
+												<!-- product details button ---->
+												<a href="#" class="product-slider-btn" id="productbtn6">Product Details</a>
+											</div>
+											<img 
+												src="./assets/product-img/product-details/turquoise-wrap-bracelet.jpg" 
+												alt="/"
+												
+											>
+										</div>
+										<!-- detail box ------------------------>
+										<div class="product-detail-container">
+											<!-- type -------------------------->
+											<div class="type">
+												<a href="#">Turquoise Wrap Bracelet</a>
+												<span>New Arrival</span>
+											</div>
+											<a href="#" class="price">$36</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<!-- RIGHT SLIDER BUTTON -->
+						<div id="slider-right-id" class="slider-nav-right">
+							<button class="slider-nav-btn-right" type="button" onclick="next()">🡪</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- PRODUCT DETAIL MODALS -->
+			<section class="product-detail-modal" id="product-detail-id1">
+				<div id="product1" class="product-detail-content">
+					<span id="close-product" class="close-product-one-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/Blue Beaded Leather wrap bracelets.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Blue Beaded Leather Wrap Bracelets</div>
+								<div class="product-price">$46.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+										<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>Em's Shore signature double bead braided wrap made with blue leather. </li>
+											<li>Anchor charm for closure.</li>
+											<li>Made with 4x3mm electroplated beads.</li>
+											<li>Handcrafted with care.</li> 
+											<li>Ships within 24 to 48 hours.</li> 
+										</ul> 						
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-One"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-one-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section class="product-detail-modal" id="product-detail-id2">
+				<div id="product2" class="product-detail-content">
+					<span id="close-product" class="close-product-two-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/green-wrap-set.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Green Wrap Set</div>
+								<div class="product-price">$65.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+										<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>Layer your wrist your with our braided wrap and two dainty beaded bracelets.</li>
+											<li>Anchor charm for closure.</li>
+											<li>Made with electroplated beads and brown genuine leather, black and white wax cord, and multiple colored seed beads.</li>
+											<li>Handcrafted with care.</li>
+											<li>Made to order, ships within 1 to 2 weeks.</li> 
+										</ul> 		
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-two"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-two-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section class="product-detail-modal" id="product-detail-id3">
+				<div id="product3" class="product-detail-content">
+					<span id="close-product" class="close-product-three-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/purple-wrap-set.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Purple Wrap Set</div>
+								<div class="product-price">$65.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+										<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>Bohemian inspired turquoise leather wrap with rose gold chain.</li>
+											<li>Anchor charm for closure.</li>
+											<li>Made with electroplated beads, natural amazonite gemstone beads, and rose gold chain.</li>
+											<li>Handcrafted with care.</li>
+											<li>Ships within 24 to 48 hours.</li>  
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-three"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-three-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>				
+			</section>
+
+			<section class="product-detail-modal" id="product-detail-id4">
+				<div id="product4" class="product-detail-content">
+					<span id="close-product" class="close-product-four-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/rose-turquoise-wrap.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Rose Turquoise Wrap</div>
+								<div class="product-price">$35.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+										<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>Bohemian inspired turquoise leather wrap with rose gold chain.</li>
+											<li>Anchor charm for closure.</li>
+											<li>Made with electroplated beads, natural amazonite gemstone beads, and rose gold chain.</li>
+											<li>Handcrafted with care.</li>
+											<li>Ships within 24 to 48 hours.</li> 
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-four"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-four-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>				
+			</section>
+
+			<section class="product-detail-modal" id="product-detail-id5">
+				<div id="product5" class="product-detail-content">
+					<span id="close-product" class="close-product-five-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/seedbracelets.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Seed Bracelet</div>
+								<div class="product-price">$18.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+										<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>Add an extra layer of color to any of our wrap bracelets with these lovely dainty bead bracelets.</li>
+											<li>Anchor charm for closure.</li>
+											<li>Waterproof bracelet.</li>
+											<li>Made with 3 to 4 mm Seed Beads and 1 mm black wax cord.</li>
+											<li>Handcrafted with care.</li>
+											<li>Ships within 24 to 48 hours.</li> 
+										</ul>						
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-five"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-five-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>				
+			</section>
+
+			<section class="product-detail-modal" id="product-detail-id6">
+				<div id="product6" class="product-detail-content">
+					<span id="close-product" class="close-product-six-btn">&times;</span>
+					<div class="product-container">
+						<div class="product-img-container">
+							<img class="product-img" src="./assets/product-img/product-details/turquoise-wrap-bracelet.jpg" alt="/">
+						</div>
+						<div class="product-details">
+							<div class="product-details-top">
+								<div class="product-title">Turquoise Wrap Bracelet</div>
+								<div class="product-price">$36.00</div>
+							</div>
+							<div class="product-details-bottom">
+								<div class="product-description">
+									<div>
+									<h3>Description</h3>  
+									</div>
+									<div>
+										<ul>
+											<li>This multiple wrap turquoise bracelet is perfect for those days when you just need a splash of color to brighten any outfit.</li>
+											<li>Anchor charm for closure.</li>
+											<li>Made with 2 - 3 mm turquoise beads and genuine brown leather.</li>
+											<li>Handcrafted with care.</li>
+											<li>Made to order, ships within 1 to 2 weeks.</li>  
+										</ul> 	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="notify-email-container">
+						<div class="product-notify">
+							<p> Get notified when we launch</p>
+							<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+								<div class="notify-email-validation">
+									<input
+										type="email"
+										class="notify-email-input"
+										id="notify-list-six"
+										name="email"
+										placeholder="Enter your email here."
+									/>
+									<!-- <p class="product-email-validation">Error Message</p> -->
+								</div>
+								<!-- Use code below when developing site further -->
+								<!-- <input type="submit" class="notify-email-btn" value="Get Notified" /> -->
+								<div class="products-notify-btn"> 
+									<a id="product-six-btn" class="notify-email-btn" href="#" src="/">Get Notified</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<!-- ABOUT MODAL -->
+			<section class="about-modal" id="about-id">
+				<div class="about-content">
+					<span class="close-about-btn">&times;</span>
+					<div class="about-content-left">
+						<div class="about-header">
+							<h1>
+								Hi, I'm Emily!
+							</h1>
+						</div>
+						<div class="about-img-content">
+							<img
+							id="about-img"
+							src="./assets/profile-photo.jpg"
+							alt="/"
+							/>
+						</div>
+					</div>
+					<div class="about-content-right">
+						<div class="about-main-text">
+							<h3>Welcome to Em's Shore, Where we bring the beauty of the coast to you!</h3>
+							<p>
+								My name is Emily, and I am the owner and creator behind Em's Shore. As a lover of nature and all things coastal, I draw my inspiration from the sea, the mountains, and spending time with my family in nature. Each piece is carefully crafted with attention to detail and quality, ensuring that it will last for years to come.
+							</p>
+						</div>
+						<div class="about-main-text">
+							<p>
+								Growing up I have always had a deep appreciation for the power of the ocean and the beauty of the coastal range. I spent countless hours beachcombing with my family, searching for the perfect seashells and sea glass. Those treasures inspired me to start creating jewelry that reflects the beauty and serenity of the coast.
+							</p>
+							<p>
+								As a wife and a mother of three, family is also a significant inspiration for me.  My family has been a huge support and have been involved throughout the creation of Em’s Shore and each design I have created. Each design is inspired by more than just the beauty of nature, but by the moments in nature that has been spent with loved ones.
+							</p>
+						</div>
+						<div class="about-main-text">
+							<p>
+								Em's Shore is more than just a business to me; it's a way to share my passion for nature, the coast, and the importance of making memories with your loved ones with others. I hope that my jewelry can inspire you to connect with the beauty and serenity of nature and to cherish the moments spent with loved ones.
+							</p>
+							<p>
+								Thank you for visiting Em's Shore, and please don't hesitate to contact me with any questions or custom requests.
+							</p>
+						</div>
+						<div class="signature">
+							<img class="signature-img" src="./assets/ES dark blue.png" alt="/">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTACT FORM MODAL -->
+			<section class="contact-modal" id="contact-id">
+				<div class="contact-content">
+					<span class="close-contact-btn">&times;</span>
+					<div class="contact-content-left">
+						<img
+							id="contact-img"
+							src="./assets/product-img/purple-wrap.jpg"
+							alt="/"
+						/>
+					</div>
+					<div class="contact-content-right">
+						<form
+							action="/"
+							method="GET"
+							class="contact-form"
+							id="contact-form-id"
+						>
+							<h1 class="form-h1">Have A Question?</h1>
+							<p>Send us an email today!</p>
+							<div class="form-validation">
+								<input
+									type="text"
+									class="modal-input"
+									id="name"
+									name="name"
+									placeholder="Enter your name here."
+								/>
+								<p>Error Message</p>
+							</div>
+							<div class="form-validation">
+								<input
+									type="email"
+									class="modal-input"
+									id="email"
+									name="email"
+									placeholder="Enter your email here."
+								/>
+								<p>Error Message</p>
+							</div>
+							<div class="form-validation">
+								<input
+									type="text"
+									class="modal-input"
+									id="subject"
+									name="subject"
+									placeholder="Enter your subject here."
+								/>
+								<p>Error Message</p>
+							</div>
+							<div class="form-validation">
+								<textarea 
+								class="modal-input"
+								id="message"
+								name="message" 
+								rows="10" 
+								cols="40" 
+								placeholder="Enter your message here."
+								></textarea>
+								<!-- <input
+									type="text"
+									class="modal-input"
+									id="message"
+									name="message"
+									placeholder="Enter your message here."
+								/> -->
+								<p id="message-p">Error Message</p>
+							</div>
+							<!-- Use this code when develoiping code further -->
+							<!-- <input type="submit" class="modal-input-btn" value="Contact" /> -->
+							<div class="contact-notify"> 
+								<a id="contact-notify-btn-id" class="modal-input-btn" href="#" src="/">Send Message</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- MAIN SECTION -->
+			<section class="main-section">
+				<div class="main">
+					<div class="main-div">
+						<div class="coming-soon-text">
+							<h2>Coming Soon...</h2>
+						</div>
+						<p class="main-text">Seashore inspired handcrafted jewlery.</p>
+					</div>
+					<div class="main-notify-form">
+						<form action="/" method="get" id="notify-email-form" class="notify-email-form">
+							<div class="notify-email-validation">
+								<input
+									type="email"
+									class="notify-email-input"
+									id="notify-list"
+									name="email"
+									placeholder="Enter your email here."
+								/>
+								<!-- <p>Error Message</p> -->
+							</div>
+							<!-- Use code below when developing site further. -->
+							<!-- <input type="submit" id="notify-btn-id" class="notify-email-btn" value="Get Notified"/> -->
+							<div class="notify-btn-div"> 
+								<a id="notify-btn-id" class="notify-email-btn" href="#" src="/">Get Notified</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<img class="main-img" src="./assets/product-img/wraps.jpg" alt="/" />
+			</section>
+
+			<!-- COMMING SOON SECTION -->
+			<section class="coming-soon-section">
+				<div class="jewelry-img-section">
+					<figure class="jewelry-img-div">
+						<img
+							class="jewelry-img"
+							src="./assets/product-img/leather-wraps.jpg "
+							alt="/"
+						/>
+						<p class="jewelry-text">Leather Wraps</p>
+					</figure>
+					<figure class="jewelry-img-div">
+						<img
+							class="jewelry-img"
+							src="./assets/product-img/necklaces.jpg"
+							alt="/"
+						/>
+						<p class="jewelry-text">Necklaces</p>
+					</figure>
+					<figure class="jewelry-img-div">
+						<img
+							class="jewelry-img"
+							src="./assets/product-img/layers.jpg"
+							alt="/"
+						/>
+						<p class="jewelry-text">Layers</p>
+					</figure>
+					<figure class="jewelry-img-div">
+						<img
+							class="jewelry-img"
+							src="./assets/product-img/waterproof.jpg"
+							alt="/"
+						/>
+						<p class="jewelry-text">Waterproof</p>
+					</figure>
+				</div>
+			</section>
+
+			<!-- INFORMATION SECTION -->
+			<section class="grey-section">
+				<div class="quote-text">
+					<p>
+						Just like the waves in the ocean, no two pieces are ever the same. They are unique, beautiful, and made with love by me for you to wear and enjoy!
+					</p>
+				</div>
+				<div class="ems-shore">
+					<p>➼ <em> Em's Shore</em></p>
+				</div>
+			</section>
+
+			<!-- STACKED IMAGES SECTION -->
+			<section class="img-stack-section">
+				<figure class="img-left-div">
+					<img
+						class="img-stack"
+						src="./assets/product-img/pyrite-wrap.jpg"
+						alt="/"
+					/>
+				</figure>
+				<figure class="img-middle-div">
+					<img
+						class="img-stack"
+						src="./assets/product-img/moonstone-wrap.jpg"
+						alt="/"
+					/>
+				</figure>
+				<figure class="img-right-div">
+					<img
+						class="img-stack"
+						src="./assets/product-img/white-blue-wrap.jpg"
+						alt="/"
+					/>
+				</figure>
+			</section>
+
+			<!-- CALL TO ACTION SECTION -->
+			<section class="email-list-section">
+				<div class="email-list-content">
+					<div class="email-content-left">
+						<h4 class="email-header">Join our email list today</h4>
+						<p class="email-text">and never miss an update!</p>
+					</div>
+					<div class="email-content-right">
+						<form action="/" method="get" id="email-list-form" class="email-list-form">
+							<div class="email-list-validation">
+								<input
+									type="email"
+									class="email-list-input"
+									id="email-list"
+									name="email"
+									placeholder="Enter your email here."
+								/>
+								<!-- <p>Error Message</p> -->
+							</div>
+							<!-- Use code below when developing site further. -->
+							<!-- <input type="submit" class="email-list-btn" value="Sign Up" /> -->
+							<div class="emails-btn-div"> 
+								<a id="emails-btn-id" class="email-list-btn" href="#" src="/">Get Notified</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- FOOTER -->
+		<section class="footer">	
+			<div class="footer-copywrite">
+				<p>Copywrite © 2023 Em's Shore, All rights reserved.</p>
+			</div>
+			<div class="footer-social-links">
+				<a class="social-links" href="#">
+					<img
+						alt="/"
+						src="./assets/social-icons/instagram-line.svg"
+						class="fa fa-instagram"
+					></img>
+				</a>
+				<a class="social-links" href="#">
+					<img
+						alt="/"
+						src="./assets/social-icons/twitter-line.svg"
+						class="fa fa-twitter"
+					></img>
+				</a>
+				<a class="social-links" href="https://www.linkedin.com/in/emily-smith-em/ ">
+					<img
+						alt="/"
+						src="./assets/social-icons/linkedin-fill.svg"
+						class="fa fa-linkedin"
+					></img>
+				</a>
+				<a class="social-links" href="#">
+					<img
+						alt="/"
+						src="./assets/social-icons/mail-line.svg"
+						class="fa fa-email"
+					></img>
+				</a>
+			</div>
+		</section>
+		<script src="./src/app.js"></script>
+		<script src="https://kit.fontawesome.com/e1590454b3.js" crossorigin="anonymous"></script>
+	</body>
+</html>
