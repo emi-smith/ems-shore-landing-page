@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	font-family: Helvetica;
+}
+
+html {
+	width: 100%;
+}
+
+.input:-internal-autofill-selected {
+	background: white;
+}
+
+textarea {
+	font-family: Helvetica;
+}
