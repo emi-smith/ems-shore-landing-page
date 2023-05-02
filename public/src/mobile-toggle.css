@@ -1,6 +1,6 @@
 .toggle-section.active {
 	position: fixed;
-	z-index: 10;
+	z-index: 9;
 	left: 0;
 	top: 0;
 	width: 100%;
