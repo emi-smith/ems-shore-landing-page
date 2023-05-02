@@ -6,15 +6,15 @@ Mobile responsive landing page for Em's Shore.
   - [Description](#Description)
   - [Technologies Used](#Technologies-Used)
   - [Landing Page Visuals](#Landing-Page-Visuals)
-  - [Web](#Web)
-  - [Mobile](#Mobile)
+    - [Web](#Web)
+    - [Mobile](#Mobile)
   - [What I enjoyed](#What-I-enjoyed)
   - [Issues and future changes](#Issues-and-future-changes)
   - [Referenced JavaScript Materials](#Referenced-JavaScript-Materials)
-  - [Popup Modals Using JavaScript](#Popup-Modals-Using-JavaScript)
-  - [Floating Form](#Floating-Form)
-  - [Product Slider](#Product-Slider)
-  - [Draggable Menu](#Draggable-Menu)
+    - [Popup Modals Using JavaScript](#Popup-Modals-Using-JavaScript)
+    - [Floating Form](#Floating-Form)
+    - [Product Slider](#Product-Slider)
+    - [Draggable Menu](#Draggable-Menu)
 
 ## Description
 
