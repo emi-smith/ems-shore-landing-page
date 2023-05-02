@@ -4,7 +4,7 @@ Mobile responsive landing page for Em's Shore.
 
 ## Description
 
-Em's Shore is a business that I opened and ran in 2014 to 2020 before switching careers. Developing Em's Shore is where I started to fall in love with website design and development. I taught myself how to design and develop Em's Shore website. I do not have the original source code, so I built this landing page to showcase some of the skills learned.
+Em's Shore is a business that I opened and ran in 2014 to 2020 before switching careers. I taught myself how to design and develop Em's Shore website and is where I started to fall in love with website design and development. I do not have the original source code, so I built this landing page to showcase some of the HTML and CSS skills I've learned.
 
 ### Technologies Used
 
@@ -33,3 +33,33 @@ Em's Shore is a business that I opened and ran in 2014 to 2020 before switching 
 ![Screenshot](/README-IMGS/es-contact-mobile.png)
 ![Screenshot](/README-IMGS/es-products-mobile.png)
 ![Screenshot](/README-IMGS/es-product-details-mobile.png)
+
+## What I enjoyed
+
+Honestly I enjoyed the entire design and development process, I love seeing my ideas come to life, and learning new skills along the way. That does not mean there are not moments of frustration, the draggable mobile navigation for example, was fun to learn how to develop, yet there were definitely moments of frustration. Those are the momemnts I know I'm learning so I welcome them.
+
+## Issues and future changes
+
+Currently the mobile navigation is clickable on mobile devices, however it will only activate and deactivate when touching to the left of the navigation. Same goes for links within the mobile navigation menu.
+
+On larger touchscreen devices the mobile navigation works perfectly, however it is not draggable, yet it is draggable on mobile devices.
+
+At this moment in time I am a beginner at JavaScript, so as I learn more and build my JavaScript skills, these will be issues I will come back and fix.
+
+## Referenced JavaScript Materials
+
+### Popup Modals Using JavaScript
+
+![Youtube](https://www.youtube.com/watch?v=9OlMQpivP2Q)
+
+### Floating Form
+
+![Youtube](https://www.youtube.com/watch?v=V5tgNwbvSy8&list=PL7p77eAgOOtK-mWrVj2bBnZztU9rcO6oO&index=2&t=1s)
+
+### Product Slider
+
+![Youtube](https://www.youtube.com/watch?v=Qc-LFzxoU6Q&t=927s)
+
+### Draggable Menu
+
+![Youtube](https://www.youtube.com/watch?v=sI2Oe7EkKMI)
