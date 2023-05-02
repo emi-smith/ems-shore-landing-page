@@ -560,6 +560,10 @@
 
 @media only screen and (max-width: 590px) {
 	/* MAIN */
+	.main-section {
+		gap: 80px;
+	}
+
 	.main-notify-form {
 		display: flex;
 		justify-content: center;
@@ -608,6 +612,10 @@
 		height: 120%;
 		font-size: 18px;
 		box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 1);
+	}
+
+	.notify-btn-div {
+		margin-top: 15px;
 	}
 
 	/* EMAIL LIST */
