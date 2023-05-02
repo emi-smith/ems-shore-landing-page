@@ -50,16 +50,16 @@ At this moment in time I am a beginner at JavaScript, so as I learn more and bui
 
 ### Popup Modals Using JavaScript
 
-![Youtube](https://www.youtube.com/watch?v=9OlMQpivP2Q)
+[Popup Modals](https://www.youtube.com/watch?v=9OlMQpivP2Q)
 
 ### Floating Form
 
-![Youtube](https://www.youtube.com/watch?v=V5tgNwbvSy8&list=PL7p77eAgOOtK-mWrVj2bBnZztU9rcO6oO&index=2&t=1s)
+[Floating Form](https://www.youtube.com/watch?v=V5tgNwbvSy8&list=PL7p77eAgOOtK-mWrVj2bBnZztU9rcO6oO&index=2&t=1s)
 
 ### Product Slider
 
-![Youtube](https://www.youtube.com/watch?v=Qc-LFzxoU6Q&t=927s)
+[Product Slider](https://www.youtube.com/watch?v=Qc-LFzxoU6Q&t=927s)
 
 ### Draggable Menu
 
-![Youtube](https://www.youtube.com/watch?v=sI2Oe7EkKMI)
+[Draggable Menu](https://www.youtube.com/watch?v=sI2Oe7EkKMI)
