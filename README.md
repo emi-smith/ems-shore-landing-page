@@ -2,7 +2,7 @@
 
 Mobile responsive landing page for Em's Shore.
 
-# Table of Contents
+### Table of Contents
 
 - [Description](#Description)
 - [Technologies Used](#Technologies-Used)
