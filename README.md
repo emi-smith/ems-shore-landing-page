@@ -4,23 +4,23 @@ Mobile responsive landing page for Em's Shore.
 
 ### Table of Contents
 
-  - [Description](#Description)
-  - [Technologies Used](#Technologies-Used)
-  - [Landing Page Visuals](#Landing-Page-Visuals)
-    - [Web](#Web)
-    - [Mobile](#Mobile)
-  - [What I enjoyed](#What-I-enjoyed)
-  - [Issues and future changes](#Issues-and-future-changes)
-  - [Referenced JavaScript Materials](#Referenced-JavaScript-Materials)
-    - [Popup Modals Using JavaScript](#Popup-Modals-Using-JavaScript)
-    - [Floating Form](#Floating-Form)
-    - [Product Slider](#Product-Slider)
-    - [Draggable Menu](#Draggable-Menu)
-  - [License](#Mit-License)
+- [Description](#Description)
+- [Technologies Used](#Technologies-Used)
+- [Landing Page Visuals](#Landing-Page-Visuals)
+  - [Web](#Web)
+  - [Mobile](#Mobile)
+- [What I enjoyed](#What-I-enjoyed)
+- [Issues and future changes](#Issues-and-future-changes)
+- [Referenced JavaScript Materials](#Referenced-JavaScript-Materials)
+  - [Popup Modals Using JavaScript](#Popup-Modals-Using-JavaScript)
+  - [Floating Form](#Floating-Form)
+  - [Product Slider](#Product-Slider)
+  - [Draggable Menu](#Draggable-Menu)
+- [License](#Mit-License)
 
 ## Description
 
-Em's Shore is a business that I opened and ran in 2014 to 2020 before switching careers. I taught myself how to design and develop Em's Shore website and is where I started to fall in love with website design and development. I do not have the original source code, so I built this landing page to showcase some of the HTML and CSS skills I've learned.
+Em's Shore is a business that I opened and ran in 2014 to 2020 before switching careers. I taught myself how to design and develop while building Em's Shore website and is where I started to fall in love with website design and development. I do not have the original source code, so I built this landing page to showcase some of the HTML and CSS skills I've learned.
 
 [Table of Contents](#Table-of-Contents)
 
@@ -95,6 +95,7 @@ At this moment in time I am a beginner at JavaScript, so as I learn more and bui
 [Table of Contents](#Table-of-Contents)
 
 ## MIT License
+
 Copyright (c) 2022 Emily Smith
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
